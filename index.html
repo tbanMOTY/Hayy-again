@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Al-HAYY SCHOOL REGISTRATION FORM</title>
+	<link rel="stylesheet" type="text/css" href="HTML first project_style.css">
+	 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<header>
+		<h1>WELCOME TO AL HAYY SCHOOL WEBSITE</h1>
+	</header>
+	<!-- <fieldset> -->
+		<!-- <div id="container">
+	<img src="https://thumbs.dreamstime.com/t/winding-road-green-hills-49553514.jpg">       
+	<img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/flowing-spring-jessica-fronabarger.jpg"> 
+	</div>
+	</fieldset> -->
+	<fieldset>
+		<legend>
+			<h3>About Us</h3>
+		</legend>
+	<img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/flowing-spring-jessica-fronabarger.jpg"> 
+	<div id=div1>
+	<p>Our Motto: Path to Knowledge is Refreshing</p>
+</div>
+	<div id=div2>
+	<p class="webtext">At Al Hayy, we aim to shape bright minds with beautiful knowlege of the hadith and tajweed. Al Hayy was founded in year 2022 through the visionary of our noble founder. We are grateful and excited for the opportunity to share in our blessings with inspired people from all over the world. For more information about our qualified instructors, please visit this page to meet our team members: 
+		<a href="ourteam.html">OUR TEAM</a>
+	</p>
+
+	<p p class="webtext">Our Services Offered Include:</p>
+			<ol>
+			<li>Tajweed Classes for all ages</li>
+			<li>Hadith Classes for all ages</li>
+			<li>Female Fiqh Classes</li>
+			<li>Memorization Classes including</li>
+
+			<ul>
+				<li>Beginner memorization Juz 30</li>
+
+				<li>Advanced recitation - All Juz</li>
+			</ul>
+
+		</ol>
+		</div>
+		<div id=div3>
+	<p class="webtext">We would like to know about you, please fill in our client information and feedback form below</p>
+	</div>
+	</fieldset>
+	<fieldset>
+		<legend>
+			<h3>Client Information</h3>
+		</legend>
+		<form method="GET">
+			<!-- Use POST not GET -->
+			<p>First Name:<input type="text" name="FNAME" required=""> Last Name:<input type="text" name="LNAME" required=""></p>
+			<p>Email Adrress:<input type="Email" name="Email" required=""> 
+				Password:<input type="Password" name="Password" min="6">
+				<span>please create password to enable you access your account information later</span>></p>	
+			<p>Phone Number:<input type="Phone" name="Phone"></p>
+			<p>Country:<input type="Country" name="Country">
+			<span>please enter this information so we can know which region you are contacting us from and match you to right team</span></p>
+			Birthday:<input type="Date" name="Birthday">
+		
+			<p>Gender:<br></p>
+			<p><input type="radio" name="Gender" value="Male">Male</p>
+			<p><input type="radio" name="Gender" value="Female">Female</p>
+			<p>Number of Students interested in enrollment:<input type="Number" name="Number"></p>
+			<p>Programs Interested in:<i>please check all that apply</i></p>
+			<p><input type="checkbox" name="Tajweed">Tajweed Classes for all ages
+			<input type="checkbox" name="Hadith">Hadith Classes for all ages
+			<input type="checkbox" name="Fiqh">Female Fiqh Classes</p>
+			<p> <input type="checkbox" name="Beginner">Beginner Memorization
+			<input type="checkbox" name="Advanced">Advanced Recitation</p>
+			<p> When is the best time to contact you:
+			<SELECT Name="Time of Contact">
+				<OPTION Value="Please select" Name="Please select">Please Select</OPTION>
+				<OPTION Value="Morning" Name="Morning">Morning</OPTION>
+				<OPTION Value="Afternoon" Name="Afternoon">Afternoon</OPTION>
+				<OPTION Value="Evening" Name="Evening">Evening</OPTION>
+			</SELECT></p>
+				</fieldset>
+	<fieldset>
+		<legend>
+			<h3>Feedback Information</h3>
+		</legend>
+		<form method="POST">
+			<!-- Use POST not GET -->
+			How did you hear about us?
+			<SELECT Name: How you heard about us>
+				<OPTION Value="Please select" Name="Please select">Please Select</OPTION>
+				<OPTION Value="Website" Name="Website">Website</OPTION>
+				<OPTION Value="Friend Refferal" Name="Friend Refferal">Friend Refferal</OPTION>
+				<OPTION Value="Newspaper" Name="Newspaper">Newspaper</OPTION>
+			</SELECT><br>
+			<p> We would love to hear your thoughts, suggestions, concerns or questions</p>
+			<p><b>Feedback Type</b></p>
+			<p><input type="checkbox" name="Comments">Comments
+			<input type="checkbox" name="suggestions">Suggestions 
+			<input type="checkbox" name="Questions"> Questions</p>
+			<p>Please describe your feedback:</p>
+			<p><textarea name="feedback description" rows="15" cols="100">
+			</textarea></p>
+			<p><input type="Submit" name="Register" value="Register"> 
+			<input type="Reset" name="Reset">
+		</p>
+		</form>
+	</fieldset>
+	<footer>
+		<h3>Thank you for contacting us, one of our specialized team members will reach out to you shortly!</h3>
+	</footer>
+	
+</body>
+</html>
+

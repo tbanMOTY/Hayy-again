@@ -1,0 +1,35 @@
+body{
+	background-color: #FFC7AA;
+}
+h1{
+	font-family: 'Dancing Script', cursive;
+	font-size: 150%;
+	border-bottom: 4px solid rgb(85, 29, 0);
+	width: 300px;
+
+}
+.Faculty {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+img{
+	width: 400px;
+	height:200px;
+	margin: 10px;
+	transition: all 1s
+}
+img:hover{
+	transform: scale(1.1);
+}
+
+#facname{
+	font-family: 'Dancing Script', cursive;
+	font-size: 120%;
+	color: #D48E6A
+}
+.names{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
